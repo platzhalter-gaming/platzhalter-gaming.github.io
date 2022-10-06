@@ -1,7 +1,7 @@
 #################### Banner #####################
 banner:
   enable: true
-  title: "Ja, man Minecraft!"
+  title: "Ja man, Minecraft!"
   content: "Bisschen Survival mit dem kleinen Plus. Mal schauen was die Zukunft bringen wird."
   image: "images/hero-image/hero-slider-01.jpg"
   button:
@@ -20,20 +20,12 @@ mission:
 
 #################### Vission #####################
 vision:
-  enable: false
-  section: "VISION"
+  enable: true
+  section: "SERVERS"
   vision_item:
-    - title: "People First"
-      image: "images/vision/vision-01.jpg"
-      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
-
-    - title: "Employee Culture"
-      image: "images/vision/vision-02.jpg"
-      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
-
-    - title: "The Omega Way"
-      image: "images/vision/vision-03.jpg"
-      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+    - title: "Survival - Vanilla+"
+      image: "images/vision-survival-vanillaplus.png"
+      content: "Vanilla Survival mit Tweaks und dem gewissen Extra.<br>PvP ist togglebar.<br>MC Version: `v1.19.2`"
 
 #################### product ####################
 product:
