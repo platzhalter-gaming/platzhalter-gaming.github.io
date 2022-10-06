@@ -10240,7 +10240,7 @@ body {
             font-size: 35px;
             line-height: 40px; } }
       .hero-slider-wrapper .item .content h3 {
-        margin-bottom: 95px;
+        margin-bottom: 20px;
         letter-spacing: 2px;
         font-weight: 400;
         font-size: 20px;
@@ -10251,13 +10251,11 @@ body {
         padding-right: 15px; }
         @media (max-width: 1200px) {
           .hero-slider-wrapper .item .content h3 {
-            font-size: 20px;
-            margin-bottom: 50px; } }
+            font-size: 20px; } }
         @media (max-width: 767px) {
           .hero-slider-wrapper .item .content h3 {
             font-size: 16px;
-            letter-spacing: 1px;
-            margin-bottom: 30px; } }
+            letter-spacing: 1px; } }
       .hero-slider-wrapper .item .content .hero-btn {
         padding: 25px 50px;
         font-weight: 600;
@@ -11140,8 +11138,6 @@ ul.social-list li a {
       margin-bottom: 20px;
       font-size: 18px;
       letter-spacing: 2px; }
-    .footer .call-to-action code {
-      color: #fff; }
     .footer .call-to-action a {
       padding: 15px 40px;
       background: #fff;
@@ -11166,6 +11162,9 @@ ul.social-list li a {
   @media (max-width: 575px) {
     .navbar-brand {
       font-size: 40px; } }
+  @media (max-width: 1200px) {
+    .navbar-brand span {
+      display: none !important; } }
   .navbar-brand span {
     background-color: #FF1D5D;
     display: inline-block;
@@ -11174,3 +11173,6 @@ ul.social-list li a {
 
 a.navbar-brand:hover {
   color: #807d7d; }
+
+code {
+  color: #fff; }
