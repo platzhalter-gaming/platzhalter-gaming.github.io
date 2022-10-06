@@ -1,0 +1,3 @@
+[submodule "themes/omega-hugo"]
+	path = themes/omega-hugo
+	url = https://github.com/platzhalter-gaming/omega-hugo.git

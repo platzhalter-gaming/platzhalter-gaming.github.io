@@ -1,0 +1,89 @@
+#################### Banner #####################
+banner:
+  enable: true
+  title: "Ja, man Minecraft!"
+  content: "Bisschen Survival mit dem kleinen Plus. Mal schauen was die Zukunft bringen wird."
+  image: "images/hero-image/hero-slider-01.jpg"
+  button:
+    enable: true
+    label: "Join the Server"
+    link: "#cta"
+
+#################### Mission #####################
+mission:
+  enable: false
+  title: "Propel Advancement"
+  section: "MISSION"
+  content: "Introducing the world’s first Advancement Company. As we enter the dawn of the digital age a significant leap must be made to propel the world into the age of advancement."
+  video_thumb: "images/video-thumb.jpg"
+  video_id: "ResipmZmpDU"
+
+#################### Vission #####################
+vision:
+  enable: false
+  section: "VISION"
+  vision_item:
+    - title: "People First"
+      image: "images/vision/vision-01.jpg"
+      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+
+    - title: "Employee Culture"
+      image: "images/vision/vision-02.jpg"
+      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+
+    - title: "The Omega Way"
+      image: "images/vision/vision-03.jpg"
+      content: "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+
+#################### product ####################
+product:
+  enable: false
+  section: "Products"
+  title: "Some Of Our Best Products"
+  content: "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
+  product_item:
+    - title: "Ecosystem"
+      image: "images/product/product-03.jpg"
+      content: "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+      project_url: "#"
+
+    - title: "Objects"
+      image: "images/product/product-02.jpg"
+      content: "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+      project_url: "#"
+
+    - title: "Publisher"
+      image: "images/product/product-03.jpg"
+      content: "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+      project_url: "#"
+
+###################### Contact ####################
+contact:
+  enable: false
+  section: "CONTACT US"
+  title: "reach us"
+  image: "images/map-bg.jpg"
+  content: "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
+
+################### call to action #################
+call_to_action:
+  enable: true
+  title: "Join Platzhalter Gaming MC Server"
+  content: |
+    <div class="input-group input-group-lg">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Server IP/ Address:</span>
+      </div>
+      <input type="text" disabled="disabled" class="form-control" id="gameserver-ip" aria-label="Server IP/ Address - Click to Copy" aria-describedby="inputGroup-sizing-lg" value="platzhalter-gaming.net">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" onclick="copyToClipboard('#gameserver-ip')" type="button">Copy</button>
+      </div>
+    </div>
+  content2: |
+    1. Copy the server address: <span onclick="copyToClipboard('#gameserver-ip')">`platzhalter-gaming.net`</span>
+    2. Open the <code>Multiplayer</code> page of your Minecraft Java Edition
+    3. Click <code>Add Server</code> button
+    4. Paste the server address into the `Server Address` field
+    5. Click the `Done` button and now double click the server in the list
+  button_label: ""
+  button_link: ""
