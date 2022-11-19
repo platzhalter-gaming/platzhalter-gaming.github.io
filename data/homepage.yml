@@ -51,11 +51,11 @@ product:
 
 ###################### Contact ####################
 contact:
-  enable: false
-  section: "CONTACT US"
-  title: "reach us"
-  image: "images/map-bg.jpg"
-  content: "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
+  enable: true
+  section: "RULES"
+  title: "Our server rules"
+  image: ""
+  content: "These our server rules, here to maintain a degree of order, fairness and friendliness on the server. Be sure to read them.<br>[Click here to read the server rules](/rules/)"
 
 ################### call to action #################
 call_to_action:
